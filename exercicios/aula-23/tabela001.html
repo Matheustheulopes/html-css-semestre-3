@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(101, 111, 156);
+        }
+
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center; /* Alinhamento horizontal */
+            vertical-align: middle; /* Alinhamento vertical */
+        }
+
+        .numero{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira Tabela</h1>
+    <!-- 
+        HIERARQUIA DE TABELA (simples)
+        table = tabela
+            Table Row = linha de tabela
+               Table Header = cabecalho de tabela
+               Table DATA = dado de tabela
+    -->
+    <table>
+        <tr> <!-- primeira linha -->
+            <td>1º Flamengo</td>
+            <td>2º Grêmio</td>
+            <td>3º Internacional</td>
+        </tr>
+        <tr> <!-- segunda linha -->
+            <td>4º Palmeiras</td>
+            <td>5º Santos</td>
+            <td class="numero">6º Vasco</td>
+        </tr>
+        <tr> <!-- terceira linha -->
+            <td>7º Corinthians</td>
+            <TD>8º Cruzeiro</TD>
+            <td>9º São Paulo</td>
+        </tr>
+        <tr> <!-- quarta linha -->
+            <td>10º Fluminense</td>
+            <td>11º Botafogo</td>
+            <td>12º Atlético Mineiro</td>
+        </tr>
+    </table>
+</body>
+</html>
